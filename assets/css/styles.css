@@ -415,7 +415,7 @@ img{
     column-gap: 2rem;
   }
   .home__social1{
-    margin-left: 25%;
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
   }
@@ -430,7 +430,7 @@ img{
     right: 10%;
   }
   .home__social1{
-    margin-left: 25%;
+    margin-left: 15%;
     display: flex;
     flex-direction: column;
   }
