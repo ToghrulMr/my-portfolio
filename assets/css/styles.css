@@ -328,7 +328,7 @@ img{
 }
 
 .home__social1{
-  margin-left: 25%;
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
 }
@@ -414,11 +414,7 @@ img{
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
-  .home__social1{
-    margin-left: 15%;
-    display: flex;
-    flex-direction: column;
-  }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -429,10 +425,6 @@ img{
   .home__img{
     right: 10%;
   }
-  .home__social1{
-    margin-left: 15%;
-    display: flex;
-    flex-direction: column;
-  }
+
 
 }
