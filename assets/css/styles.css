@@ -171,6 +171,10 @@ img{
   font-size: 1.5rem;
   cursor: pointer;
 }
+.skills1{
+    margin-left:3%;
+  margin-top:3%;
+}
 
 /*Active menu*/
 .active::after{
@@ -213,6 +217,12 @@ img{
   font-size: 1.5rem;
   color: var(--second-color);
 }
+.home__social-icon1{
+  width: max-content;
+  margin-bottom: var(--mb-2);
+  font-size: 1.5rem;
+  color: white;
+}
 .home__social-icon:hover{
   color: var(--first-color);
 }
@@ -228,7 +238,7 @@ img{
   display: inline-block;
   background-color: var(--first-color);
   color: #fff;
-  padding: .55rem 1.5rem;
+  padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: .5rem;
 }
@@ -253,17 +263,10 @@ img{
 }
 
 /* ===== SKILLS =====*/
-.span{
-  font-size:10px;
-  margin-left:15px;
-  color:black;
-}
-.skills{
- 
-}
 .skills1{
-  margin-left:30%;
+    margin-left:30%;
   margin-top:3%;
+
 }
 .skills__container{
   row-gap: 2rem;
@@ -319,6 +322,7 @@ img{
 .skills__img{
   border-radius: .5rem;
 }
+
 /* ===== WORK =====*/
 .work__container{
   row-gap: 2rem;
@@ -346,7 +350,6 @@ img{
   margin-left: 15%;
   display: flex;
   flex-direction: column;
-  color:white;
 }
 /* ===== FOOTER =====*/
 .footer{
@@ -355,7 +358,7 @@ img{
   text-align: center;
   font-weight: var(--font-semi);
   padding: 1rem 0;
-  margin-top: 10%;
+   margin-top: 10%;
 }
 .footer1{
   background-color:black;
@@ -421,7 +424,6 @@ img{
   .home__social-icon{
     margin-bottom: 0;
     margin-right: var(--mb-4);
-    color:white;
   }
   .home__img{
     width: 457px;
@@ -440,6 +442,7 @@ img{
     grid-template-rows: repeat(2,1fr);
     column-gap: 2rem;
   }
+
  
 }
 
